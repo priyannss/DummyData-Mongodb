@@ -61,6 +61,5 @@ app.get("/generateData", async (req, res)=> {
 
 
 app.listen(port, ()=> {
-    console.log(`Server is running on http://localhost:${port}`);
-})
-  
+    console.log(`App is listening on http://localhost:${port}`);
+});
