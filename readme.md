@@ -1,4 +1,7 @@
-# Generate a dummy data in this format in a collection called employees in a db called company
+# DummyData-Mongodb
+
+Description :
+It Generates a dummy data in this format in a collection called employees in a db called company
 
 {
     name: String,
@@ -14,5 +17,10 @@
 
 
 # Generate 10 such records when a button called generate data is clicked 
-# Create an express app with mongoose to achieve it
-# everytime a button is clicked you should clear the collection# DummyData-Mongodb
+# Created an express app with mongoose to achieve it
+
+# Technologies Used
+> Node.js
+> Express.js
+> MongoDB
+> Mongoose
