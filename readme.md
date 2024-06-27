@@ -16,7 +16,7 @@ It Generates a dummy data in this format in a collection called employees in a d
 }
 
 
-# Generate 10 such records when a button called generate data is clicked 
+# Generates 10 such records when a button called generate data is clicked 
 # Created an express app with mongoose to achieve it
 
 # Technologies Used
