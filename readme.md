@@ -20,7 +20,9 @@ It Generates a dummy data in this format in a collection called employees in a d
 # Created an express app with mongoose to achieve it
 
 # Technologies Used
+> JavaScript
 > Node.js
 > Express.js
 > MongoDB
 > Mongoose
+> ejs

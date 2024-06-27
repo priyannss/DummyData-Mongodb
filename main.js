@@ -5,18 +5,15 @@ import Employee from "./models/company.js";
 const app = express();
 const port = 3000;
 
-mongoose.connect("mongodb://localhost:27017/company", {
-    useNewUrlParser: true, 
-    useUnifiedTopology: true 
-})
-.then(() => console.log("MongoDB connected"))
-.catch( (err) => (console.error("MongoDB connection error:", err)) );
+let connection = mongoose.connect("mongodb://localhost:27017/company");
 
 
-// Middleware
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
+app.set("view engine", "ejs");
+
+app.get("/", (req, res)=> {
+    res.render("index", {});
+});
 
 
 app.get("/generateData", async (req, res)=> {
